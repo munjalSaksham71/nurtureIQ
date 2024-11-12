@@ -6,7 +6,7 @@ import CoursePage from '@/pages/CoursePage';
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
       <Router>
         <div className="min-h-screen w-screen bg-background">
           <Navbar />
